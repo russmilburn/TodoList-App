@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ThingzToDo</string>
+    <string name="edit_title">Edit Task</string>
+    <string name="add_title">Add Task</string>
+    <string name="completed_title">Completed Tasks</string>
+    <string name="low_rb_text">Low</string>
+    <string name="med_rb_text">Mid</string>
+    <string name="high_rb_text">High</string>
+    <string name="task_hint_text">enter task</string>
+    <string name="save_btn_text">Save</string>
+    <string name="set_date_btn_text">Due Date</string>
+    <string name="priority_text">Priority</string>
+    <string name="complete_btn_text">Completed</string>
+    <string name="add_btn_text">Add</string>
+    <string name="date_ok_btn_text">Okay</string>
+    <string name="date_cancel_btn_text">Cancel</string>
+    <string name="date_dialog_title_text">Please Select A Due Date</string>
+    <string name="none_rb_text">None</string>
+    <string name="delete_mi_text">Delete Task</string>
+    <string name="edit_mi_text">Edit Task</string>
+    <string name="no_task_text">No Completed Tasks</string>
+    <string name="no_uncomplete_task_text">No uncomplete tasks</string>
+
+</resources>

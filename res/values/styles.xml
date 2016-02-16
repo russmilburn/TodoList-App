@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DefaultButtonStyle" parent="android:Widget.Button">
+
+        <item name="android:textSize">15sp</item>
+
+
+    </style>
+
+    <style name="dateTextStyle">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="dateTextStyle_overdue">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#ff0000</item>
+    </style>
+
+    <style name="task_style">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="title_style">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="task_none">
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="task_low">
+        <item name="android:textColor">#1ad730</item>
+    </style>
+
+    <style name="task_mid">
+        <item name="android:textColor">#fec838</item>
+    </style>
+
+    <style name="task_high">
+        <item name="android:textColor">#ff0000</item>
+    </style>
+
+
+</resources>

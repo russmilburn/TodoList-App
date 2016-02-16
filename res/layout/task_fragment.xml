@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="fill_parent">
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save_btn_text"
+            android:id="@+id/save_btn"
+            android:layout_gravity="right|center_vertical"
+            android:onClick="onSaveClick"
+            android:drawableLeft="@android:drawable/ic_menu_save"/>
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/task_hint_text"
+            android:id="@+id/task_ip"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/priority_text"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            style="@style/title_style"/>
+
+    <RadioGroup
+            android:id="@+id/priorityGroup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="5dp">
+
+
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/none_rb_text"
+                android:id="@+id/none_rb"
+                android:layout_gravity="center"
+                style="@style/task_none"
+                />
+
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/low_rb_text"
+                android:id="@+id/low_rb"
+                android:layout_gravity="center"
+                style="@style/task_low"
+                />
+
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/med_rb_text"
+                android:id="@+id/mid_rb"
+                android:layout_gravity="center"
+                style="@style/task_mid"/>
+
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="@string/high_rb_text"
+                android:id="@+id/high_rb"
+                style="@style/task_high"/>
+    </RadioGroup>
+
+
+    <TextView
+            android:id="@+id/due_date_txt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            style="@style/title_style"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/set_date_btn_text"
+            android:id="@+id/choose_date_btn"
+            android:layout_gravity="center_horizontal"
+            android:onClick="onChooseDateClick"
+            android:drawableLeft="@android:drawable/ic_menu_today"/>
+
+
+</LinearLayout>
